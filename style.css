@@ -8,7 +8,7 @@
 }
 body{
 	background:rgba(153, 130, 238, 0.466);
-	height:1200px;
+	height:1180px;
 }
 .resume{
 	width: 820px;
@@ -50,7 +50,7 @@ body{
 }
 
 .title{
-	font-size: 24px;
+	font-size: 23px;
 	font-weight: 700;
 	text-transform: uppercase;
 	letter-spacing: 5px;
@@ -81,22 +81,10 @@ body{
 
 .contact-wrap .contact .li_wrap{
 	display: flex;
-	/* grid-template-columns: 0.3fr 1fr; */
 	align-items: center;
 	width: 100%;
 	margin-bottom: 15px;
 }
-/* .contact .li_wrap .icons{
-	display:flex;
-	width: 50px;
-	height: 50px;
-	border-radius: 50%;
-	background:#fff;
-	align-items: center;
-	justify-content: center;
-	margin-right: 15px;
-    
-} */
 .icons{
 	border-radius: 50%;
 	/* background-color: #fff; */
@@ -106,9 +94,6 @@ body{
 	justify-content: center;
 	padding-left: 7.5px;
 	padding-top: 5px;
-	/* border: 2px solid #fff; */
-	/* color:white; */
-	/* border:1px solid white; */
 }
  .contact .li-wrap .icons:hover{
 	background-color: white;
@@ -122,12 +107,6 @@ body{
 		margin-left: 20px;
 
 	}
-
-/* .contact .li_wrap .text{ */
-	/* width: calc(100% - 50px); */
-	/* word-break: break-word; */
-	/* color:#9153c9; */
-/* } */
 .hobbies ul{
 	display: flex;
 	flex-wrap: wrap;
@@ -162,6 +141,8 @@ body{
 .language-list{
 	list-style-type: none;
 	margin-top: 20px;
+	padding: 10px;
+	padding-bottom: 30px;
 }
 .contact.language .percent {
     position: relative;
@@ -225,18 +206,6 @@ body{
     width: 125px;
     color:black;
 }
-/* .right_inner .li_wrap .info{
-	width: calc(100%  - 125px);
-	/* padding-left: 25px; */
-	/* position: relative; */
-*/
-
-/* .right_inner .li_wrap .info_title{
-	text-transform: uppercase;
-	font-weight: 700;
-	letter-spacing: 2px;
-	color: #9153c9;
-} */
 
 .right_inner .li_wrap .info_com{
 	font-weight: 300;
@@ -277,16 +246,6 @@ body{
 	height: 90px;
 	border-left:2px solid gray;
 }
-/* .education .li-wrap .education2::before{
-	content: "";
-	position: absolute;
-	top: 1px;
-	left: -40px;
-	width: 10px;
-	height: 10px;
-	background: gray;
-	border-radius: 50%;
-} */
 .education .li-wrap .education2::after{
 	content: "";
 	position: absolute;
