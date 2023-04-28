@@ -7,17 +7,17 @@
 	font-family: 'Ubuntu', sans-serif;
 }
 body{
-	background:rgba(173, 216, 230, 0.822);
+	background:rgba(153, 130, 238, 0.466);
 	height:300px;
 }
 .resume{
 	width: 820px;
-	background: #fff;
+	background:white;
 	margin: 25px auto;
 	display: flex;
 }
 .left{
-	background: #6e9b9b;
+	background:#6e9b9b;
 	width: 280px;
 	padding:  0px 20px;
 }
